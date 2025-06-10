@@ -8,6 +8,7 @@ The main goal of this project is to simulate a race track using the principles o
 
 ## Project description 
 Let's break down how this racing track simulation works, all powered by Python and Pygame:
+<br></br>
 1.	The Illusion of Movement: We create the sense of driving by constantly sliding (translating) individual road segments downward on the screen. The car itself remains fixed, giving you the feeling you're moving through the world.
 2.	Building the Curves: The track's natural-looking curves come from sine waves. These waves smoothly adjust each road segment's horizontal position, creating those realistic turns and bends.
 3.	Road Construction: The track is built piece by piece, using many rectangular segments stacked vertically. Each segment's exact horizontal center is pre-calculated based on our special path, which includes both straightaways and those sine-wave-driven curves.
